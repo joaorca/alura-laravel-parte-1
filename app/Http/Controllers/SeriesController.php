@@ -18,4 +18,9 @@ class SeriesController extends Controller
 
         return view('series.index', compact('series'));
     }
+
+    public function create(Request $request)
+    {
+        return view('series.create');
+    }
 }
