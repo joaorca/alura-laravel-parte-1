@@ -5,7 +5,7 @@
 @endsection
 
 @section('conteudo')
-    <form method="post">
+    <form method="post" action="/series">
         @csrf
         <div class="form-group">
             <label for="nome">Nome</label>
